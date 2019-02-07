@@ -6,22 +6,25 @@ var stderr = require("test-console").stderr;
 
 describe("Tests", function() {
   var _sut;
+	var message;
+
   beforeEach(() => {
 		_sut = Loader;
-		clock = Sinon.useFakeTimers();
+		messagge = "Loading"
+    clock = Sinon.useFakeTimers();
   });
 
   it("", () => {
     stdout.inspectSync(function(output) {
-			_sut.start(1000);
-			clock.tick(10000);
-			_sut.stop();
-			expect(output.join("")).eq("Loading..........");
+      _sut.start(1000, message);
+      clock.tick(10000);
+      _sut.stop();
+      expect(output.join("")).eq("Loading..........");
     });
   });
-	
+
   afterEach(() => {
-		_sut = {};
-		clock = Sinon.restore();
+    _sut = {};
+    clock = Sinon.restore();
   });
 });
