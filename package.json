@@ -1,5 +1,5 @@
 {
-  "name": "loader",
+  "name": "loader-in-console",
   "version": "1.0.0",
   "description": "Easy loader for node.js console",
   "main": "index.js",
