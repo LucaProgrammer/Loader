@@ -1,6 +1,6 @@
 {
   "name": "loader-in-console",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easy loader for node.js console",
   "main": "index.js",
   "scripts": {
