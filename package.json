@@ -1,13 +1,13 @@
 {
   "name": "loader-in-console",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy loader for node.js console",
   "main": "index.js",
   "scripts": {
     "test": "mocha \"./{,!(node_modules)/}tests/*.js\" --recursive --exit --timeout 20000",
     "start": "node index.js"
   },
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/LucaProgrammer/Loader"
   },
