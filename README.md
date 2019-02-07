@@ -1,20 +1,20 @@
 # Loader
 Easy loader for node.js console
 
-<span style="color:#d73a49">Usage</span> : 
+Usage : 
 
-```
+```JavaScript
 const Loader = require(path)
 
 Loader(duration, iteration);
 ```
 >Duration is the duration of Full loader in milliseconds.
 
->Iteration is the duration on each iteration in loader in milleconds.
+>Iteration is the duration on each iteration in loader in milliseconds.
 
-<span style="color:#d73a49">Examples</span> :
+Examples :
 
-```
+```JavaScript
 const Loader = require(path)
 
 Loader(10000, 1000);
@@ -22,7 +22,7 @@ Loader(10000, 1000);
 // Return
 Loading..........
 ```
-```
+```JavaScript
 const Loader = require(path)
 
 Loader(10000, 2000);
