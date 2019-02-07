@@ -1,6 +1,6 @@
 const Loader = require("./lib/loader");
 
-Loader.print(2000);
+Loader.start(2000);
 
-setTimeout(()=>{Loader.stopPrint();}, 11000);
+setTimeout(()=>{Loader.stop();}, 11000);
 

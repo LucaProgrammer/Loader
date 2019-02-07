@@ -4,8 +4,15 @@
   "description": "Easy loader for node.js console",
   "main": "index.js",
   "scripts": {
+    "test": "mocha \"./{,!(node_modules)/}tests/*.js\" --recursive --exit --timeout 20000",
     "start": "node index.js"
   },
   "author": "Luca Poli",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.3",
+    "test-console": "^1.1.0"
+  }
 }
