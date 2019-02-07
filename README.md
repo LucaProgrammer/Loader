@@ -6,7 +6,7 @@ Usage :
 ```JavaScript
 const Loader = require("loader-in-console")
 
-Loader.start(iteration);
+Loader.start(iteration, message);
 
 Loader.stop();
 ```
@@ -17,7 +17,7 @@ Examples :
 ```JavaScript
 const Loader = require("loader-in-console)
 
-Loader.start(1000);
+Loader.start(1000, "Loading");
 
 // Something (time 10 second)
 
