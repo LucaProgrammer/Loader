@@ -15,7 +15,7 @@ Loader.stop();
 Examples :
 
 ```JavaScript
-const Loader = require("loader-in-console)
+const Loader = require("loader-in-console")
 
 Loader.start(1000, "Loading");
 
