@@ -6,7 +6,7 @@ Usage :
 ```JavaScript
 const Loader = require("loader-in-console")
 
-Loader.start(iteration, message);
+Loader.startNameLoader(...params);
 
 Loader.stop();
 ```
@@ -15,10 +15,10 @@ Loader.stop();
 Examples :
 
 ```JavaScript
+//LOader with line of dots
 const Loader = require("loader-in-console")
 
-Loader.start(1000, "Loading");
-
+Loader.startDotsLine(1000, "Loading");
 // Something (time 10 second)
 
 Loader.stop();
@@ -27,3 +27,15 @@ Loader.stop();
 // Loading..........
 ```
 
+DOCS:
+```JavaScript
+Loader.startDotsLine(time, text);
+//paramas: Time to wait between each point, Text before points
+//return: text...........
+Loader.startSpinner(time);
+//params: Time to wait between each step
+//return: spinner(/)
+Aphorism.start(time);
+//params: Time to wait between each step
+//return: one aforism after each time
+```
