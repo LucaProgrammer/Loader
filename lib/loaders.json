@@ -1,4 +1,10 @@
 {
+	"spinner": [
+			"-",
+			"\\",
+			"|",
+			"/"
+	],
 	"aphorism": [
 		"Parents are the last people on earth who ought to have children. - Samuel Butler",
 		"Woman`s first duty in life is to her dressmaker. What the second duty is no one has yet discovered. - Oscar Wilde",
